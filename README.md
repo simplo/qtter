@@ -15,17 +15,17 @@ facebook:
 	amartist multimedia
 	
 
-This patch extracts parts of a paper sheet and convert them in cropped TOPs to be used as you want.
-It was inspired by the work from Owen Lowery.
-	He made an installation of moving puppets for childrens.
-	2D characters are animated by Kinect and childrens can draw their avatars on a paper sheet, each part on a rectangle (head, body, arms...)
-	The sheet is then inserted in a scanner and the patch cuts the rectangles and biuld the characters.
+This patch extracts parts of a paper sheet and converts them in cropped TOPs to be used as you want. 
+
+It was inspired by the work from @Owen Lowery. 
+He made an installation of moving puppets for childrens. 2D characters are animated by Kinect and childrens can draw their avatars on a paper sheet, each part on a rectangle (head, body, arms...) 
+The sheet is then inserted in a scanner and the patch cuts the rectangles and biuld the characters. 
+
 This project is intended to create the image to be printed and the system to detect and retrieve the rectangles using a simple webcam (or other live image sources) and placing the sheet in front of it.
 
-
-Detection is based on the TOE qrCodeTracker by "pdubost"
-link: https://forum.derivative.ca/uploads/short-url/oThaZRwiV2VD5YHw3M92JEfltoK.tox
-Forum reference: https://forum.derivative.ca/t/recognize-moving-qr-code/3291
+You can define all rectangles size in a simple TABLE, the system will automatically cut them from the paper sheet.
+Detection is based on the TOE qrCodeTracker by "pdubost" link: https://forum.derivative.ca/uploads/short-url/oThaZRwiV2VD5YHw3M92JEfltoK.tox Forum reference: https://forum.derivative.ca/t/recognize-moving-qr-code/3291
+https://github.com/simplo/qtter
 
 
 TO BE DONE
