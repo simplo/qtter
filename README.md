@@ -31,7 +31,8 @@ https://github.com/simplo/qtter
 TO BE DONE
 	1) compensate horizontale deformation (x rotatoin of the sheet on the camera plane) evaluating difference in size between upper and lower QRcode
 	2) line guides on the screen and positoin detection in real time to be sure the image is captured at maximum size
-	
+	3) use a better webcam (4k?) or drive a reflex camera
+		
 	
 	
 PYTHON HELP:	
